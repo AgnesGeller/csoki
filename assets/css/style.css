@@ -184,7 +184,7 @@ body.active { overflow: hidden; }
   line-height: 1;
   border-radius: var(--radius-5);
   transition: var(--transition-1);
-}
+  }
 
 .btn-primary { background-color: var(--camel); }
 
