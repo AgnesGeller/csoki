@@ -419,6 +419,15 @@ body.active { overflow: hidden; }
   gap: 10px;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+        background-size: contain;    /* a kép egésze látszik */
+        background-position: center;
+        background-color: #090908;  /* púder rózsaszín háttér */
+    }
+}
+
 
 
 
