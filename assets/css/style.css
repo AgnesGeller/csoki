@@ -419,12 +419,23 @@ body.active { overflow: hidden; }
   gap: 10px;
 }
 
+.hero {
+    margin-block-start: 83px;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    background-image: url("./assets/img/vagott.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 @media (max-width: 768px) {
     .hero {
-        height: 50vh;
-        background-size: contain;    /* a kép egésze látszik */
+        min-height: 60vh;
+        background-size: cover;
         background-position: center;
-        background-color: #090908;  /* púder rózsaszín háttér */
+        background-repeat: no-repeat;
+        background-color: #0e0e0e; /* púder rózsaszín */
     }
 }
 
