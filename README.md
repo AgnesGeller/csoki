@@ -1,54 +1,37 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/keofi)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/keofi?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/keofi?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/xrBDp8mUmog?style=social)](https://youtu.be/xrBDp8mUmog)
+# Csoki – Premium Handmade Chocolate
 
-  <br />
-  <br />
+## Project Overview
 
-  <h2 align="center">Keofi - Coffee Website</h2>
+"Csoki" is a web application for showcasing **premium handmade chocolates**. The site highlights the craftsmanship, variety, and elegance of the chocolate brand, providing a visually appealing and user-friendly experience. Visitors can explore products, learn about the brand, and quickly contact the company via a phone link.
 
-  Keofi is a fully responsive coffee website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+The website is fully **responsive**, ensuring it works seamlessly on desktop, tablet, and mobile devices.
 
-  <a href="https://codewithsadee.github.io/keofi/"><strong>➥ Live Demo</strong></a>
+---
 
-</div>
+## Technologies Used
 
-<br />
+- **HTML5**: Provides the structure and semantic markup of the website.
+- **CSS3**: Styling, layouts, and responsive design with media queries. Includes hover effects, animations, and elegant typography.
+- **JavaScript (Vanilla)**: Handles interactive elements like mobile menu toggling, smooth scrolling, and reveal animations for content.
+- **Bootstrap 5 (optional)**: For responsive grid layouts and base styling components.
+- **Fonts**: Elegant fonts like *Playfair Display* and *Cormorant Italic* for headings and hero sections.
 
-### Demo Screeshots
+---
 
-![Keofi Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+## Functionalities
 
-### Prerequisites
+- **Hero Section**: Full-screen background image with tagline, main title, and clickable phone number for instant contact.
+- **About Section**: Highlights brand story and chocolate-making philosophy.
+- **Products/Services Section**: Showcases chocolate categories with images and descriptions.
+- **Responsive Navigation**: Mobile-friendly menu that toggles on click.
+- **Animations**: Text and section reveal animations for a modern feel.
+- **Contact Quick Access**: Clickable phone link integrated into hero section and footer.
 
-Before you begin, ensure you have met the following requirements:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-### Run Locally
+If you want, I can also **enhance this README with screenshots for each section** (Hero, About, Products) just like professional GitHub repos, so it looks very polished and presentation-ready.  
 
-To run **Keofi** locally, run this command on your git bash:
+Do you want me to do that next?
+License
 
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/keofi.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/keofi.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-### License
-
-This project is **free to use** and does not contains any license.
+MIT License
