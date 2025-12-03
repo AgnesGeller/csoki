@@ -579,7 +579,7 @@ body.active { overflow: hidden; }
 .menu-card .card-price::before {
   top: 50%;
   left: 0;
-  width: calc(100% - 60px);
+  width: calc(60% - 60px);
   border-block-end: 3px dotted var(--camel);
 }
 
