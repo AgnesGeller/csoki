@@ -186,6 +186,9 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
   }
 
+  
+.btn main { background-color: var(--camel); }
+
 .btn-primary { background-color: var(--camel); }
 
 .btn-secondary { background-color: var(--rich-black-fogra-29); }
