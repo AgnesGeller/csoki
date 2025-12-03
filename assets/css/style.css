@@ -187,7 +187,7 @@ body.active { overflow: hidden; }
   }
 
   
-.btn main { background-color: var(--camel); }
+.btn-main { background-color: var(--camel); }
 
 .btn-primary { background-color: var(--camel); }
 
