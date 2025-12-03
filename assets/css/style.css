@@ -1119,7 +1119,7 @@ body.active { overflow: hidden; }
 @media (max-width: 768px) {
   .navbar-link {
     font-family: 'Dancing Script', cursive; /* akár teljesen más */
-    font-size: 0.95rem; /* kisebb betű */
+    font-size: 2rem; /* kisebb betű */
     letter-spacing: 0.5px;
   }
 }
