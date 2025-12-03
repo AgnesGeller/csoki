@@ -133,6 +133,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background-color: var(--rich-black-fogra-29);
   color: var(--white_a60);
