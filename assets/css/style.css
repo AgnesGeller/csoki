@@ -1114,3 +1114,11 @@ body.active { overflow: hidden; }
   }
 
 }
+
+@media (max-width: 768px) {
+  .navbar-link {
+    font-family: "Cormorant Garamond", serif; /* akár teljesen más */
+    font-size: 0.95rem; /* kisebb betű */
+    letter-spacing: 0.5px;
+  }
+}
