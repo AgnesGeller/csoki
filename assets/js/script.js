@@ -80,3 +80,4 @@ const revealOnScroll = function () {
 window.addEventListener("scroll", revealOnScroll);
 
 revealOnScroll();
+
