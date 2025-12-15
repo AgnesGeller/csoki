@@ -1054,13 +1054,6 @@ body.active { overflow: hidden; }
 
 }
 
-.about-video video {
-  width: 100%;
-  max-width: 700px;
-  border-radius: 12px;
-  display: block;
-  margin: 20px auto;
-}
 
 
 /**
@@ -1129,4 +1122,13 @@ body.active { overflow: hidden; }
     font-size: 2rem; /* kisebb betű */
     letter-spacing: 0.5px;
   }
+}
+
+
+.about-video video {
+  width: 100%;
+  max-width: 700px; /* ne lógjon ki a konténerből */
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
 }
