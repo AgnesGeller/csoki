@@ -9,7 +9,6 @@ const addEventOnElements = function (elements, eventType, callback) {
   }
 };
 
-
 /* ===============================
    NAVBAR
 ================================= */
@@ -33,7 +32,6 @@ const closeNavbar = function () {
 
 addEventOnElements(navbarLinks, "click", closeNavbar);
 
-
 /* ===============================
    HEADER – scrollra aktiválódik
 ================================= */
@@ -49,7 +47,6 @@ const activeElemOnScroll = function () {
 
 window.addEventListener("scroll", activeElemOnScroll);
 
-
 /* ===============================
    SCROLL REVEAL
 ================================= */
@@ -59,7 +56,6 @@ const revealOnScroll = function () {
   for (let i = 0; i < revealElements.length; i++) {
     if (revealElements[i].getBoundingClientRect().top < window.innerHeight / 1.1) {
       revealElements[i].classList.add("revealed");
-
       if (revealElements[i].classList.contains("btn")) {
         setTimeout(() => {
           revealElements[i].style.transition = "0.25s ease";
@@ -72,7 +68,6 @@ const revealOnScroll = function () {
 window.addEventListener("scroll", revealOnScroll);
 revealOnScroll();
 
-
 /* ===============================
    🍫 CSOKI KATALÓGUS SZŰRÉS
 ================================= */
@@ -81,15 +76,19 @@ const catalogCards = document.querySelectorAll('.catalog-card');
 
 catalogFilterButtons.forEach(button => {
   button.addEventListener('click', () => {
-
-    // Aktív gomb
+    
+    // Aktív gomb kezelése
     catalogFilterButtons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
 
-    const filter = button.dataset.filter;
+    const filter = button.dataset.filter.trim().toLowerCase();
 
     catalogCards.forEach(card => {
-      if (filter === 'all' || card.dataset.category === filter) {
+      const categories = card.dataset.category.trim().toLowerCase().split(' ');
+
+      if (filter === 'all') {
+        card.style.display = 'block';
+      } else if (categories.includes(filter)) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
