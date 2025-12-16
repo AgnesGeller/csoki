@@ -1171,7 +1171,7 @@ body.active { overflow: hidden; }
 /* CARD */
 .catalog-card {
   background: #fff;
-  border-radius: 16px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 15px 30px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1194,11 +1194,13 @@ body.active { overflow: hidden; }
 }
 
 .card-body h3 {
+  color: #c9a24d;
   font-size: 18px;
   margin-bottom: 6px;
 }
 
 .card-body p {
+  color: #c9a24d;
   font-size: 14px;
   opacity: 0.8;
   margin-bottom: 12px;
